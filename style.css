@@ -16,7 +16,7 @@
 body{
   background: #000;
   margin: 0 auto;
-  overflow: hidden;
+  overflow-x: hidden;
 
 }
 .btn{
@@ -47,6 +47,7 @@ body{
   color: #fff;
   justify-content: space-between;
   text-decoration: none;
+  background-color: #000;
 }
 .header .logo{
   font-size: 22px;
@@ -141,11 +142,15 @@ section{
   grid-gap: 25px;
 }
 .price-col{
-  background: #242424;
+  background: #151515;
   padding: 5% 15%;
   border-radius: 10px;
   color: #fff;
   text-align: center;
+  transition: 0.5s;
+}
+.price-col:hover{
+  transform: translateY(-20px);
 }
 .price-col p{
   font-size: 22px;
@@ -204,5 +209,80 @@ section{
   width: 20%;
   margin: auto;
 
+}
+
+/*Footer Section*/
+
+.footer{
+  background-color: #000;
+}
+
+.footerContainer{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+.SocialIcons{
+  display: flex;
+  justify-content: center;
+}
+
+.SocialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.SocialIcons a i{
+  font-size: 1em;
+  color: #000;
+  opacity: 0.9;
+}
+
+.SocialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.footerNav{
+  margin: 30px 0;
+}
+
+.footerNav ul{
+  display: flex;
+  justify-content: center;
+}
+
+.footerNav ul li a{
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.1em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+  opacity: 1;
+}
+
+.footerbottom{
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerbottom p{
+  color: #fff;
+}
+
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
 }
 </span>

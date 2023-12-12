@@ -56,10 +56,10 @@ Create table MANAGER
 
 create table EQUIPMENT
 (
-	GYM_ID varchar(10),
-	Equipment_id int primary key,
+	id int,
+    GYM_ID varchar(10),
+	Equipment_id int,
    	Equipment_Name varchar(20),
-   	Equipment_Type varchar(10),
     	Purchase_Date date,
     	foreign key id(GYM_ID) 
     	references GYM(GYM_ID)
