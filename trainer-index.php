@@ -41,6 +41,7 @@
                         <a href="index.php" class="btn btn-basic">Member Details </a>
                         <a href="trainer-index.php" class="btn btn-basic">Trainer Details</a>
                         <a href="equipment-index.php" class="btn btn-basic">Equipment Details</a>
+                        <a href="admin-login.php" class="btn btn-danger ">Logout</a>
                             <a href="trainer-create.php" class="btn btn-primary float-end">Add Trainers</a>
                     </div>
                     <div class="card-body">

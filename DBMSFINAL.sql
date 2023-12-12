@@ -42,18 +42,6 @@ create table TRAINER
 	);
 
 
-Create table MANAGER
-(
-	Manager_ID int primary key,
-	Manager_Name varchar(20),
-	Phone_Number int,
-    	GYM_ID varchar(10) ,
-    	foreign key fk(GYM_ID) 
-    	references GYM(GYM_ID)
-    	on delete cascade on update cascade
-	);
-
-
 create table EQUIPMENT
 (
 	id int,
@@ -73,14 +61,4 @@ create table MEMBERSHIP
    	 End_date date
     );
 
-create table ATTENDANCE
-(
-	Customer_ID int, 
-	Entry_date date primary key,
-   	Entry_Time time,
-    	Exit_time time,
-    	foreign key cid(Customer_ID) 
-    	references CUSTOMER(Customer_ID)
-	on delete cascade on update cascade 
-    );
 

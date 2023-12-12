@@ -12,11 +12,17 @@
 }
 .black-bg{
   background: #000;
+
+.contain .login-body{
+  border: #e33058;
+  border-radius: 1px;
+}
 }
 body{
   background: #000;
   margin: 0 auto;
   overflow-x: hidden;
+
 
 }
 .btn{
@@ -142,7 +148,7 @@ section{
   grid-gap: 25px;
 }
 .price-col{
-  background: #151515;
+  background: rgba(95, 95, 95, 0.2);
   padding: 5% 15%;
   border-radius: 10px;
   color: #fff;
@@ -215,16 +221,18 @@ section{
 
 .footer{
   background-color: #000;
-}
+  }
 
 .footerContainer{
   width: 100%;
   padding: 70px 30px 20px;
+  
 }
 
 .SocialIcons{
   display: flex;
   justify-content: center;
+  margin-top: 250px;
 }
 
 .SocialIcons a{
@@ -285,4 +293,7 @@ section{
   font-weight: 400;
   margin: 0px 5px;
 }
+
+/* Table Section */
+
 </span>
