@@ -1,0 +1,218 @@
+<span>
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+  }
+  .black-bg{
+    background: #000;
+  }
+  body{
+    background: #000;
+    margin: 0 auto;
+    overflow-x: hidden;
+  
+  }
+  .btn{
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: transparent;
+    font-size: 16px;
+    border: 1px solid #e33058;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .btn:hover{
+    background: #e33058;
+    transition: 0.4s;
+  }
+  /* Header */
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #000;
+
+  }
+  .header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .header .logo i{
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+  .header .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .header .navbar a:hover{
+    color: #baa6cf;
+  }
+  .header .btn{
+    background: transparent;
+    color: #e33058;
+    border: 1px solid #e33058;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+/* Card Section */
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.section-heading{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 110px;
+    color: #fff;
+}
+
+.container h1{
+    font-size: 45px;
+    font-weight:100;
+    color: #fff;
+}
+
+.services-cards{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    
+}
+
+.service-card{
+    width: 350px;
+    border: 1px solid #e33058;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 40px;
+    margin-top: 40px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.service-card:hover{
+    transform: translateY(-20px);
+}
+
+.service-card i{
+    font-size: 38px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.service-card h3{
+    color: #e33058;
+}
+
+.service-card p{
+    font-size: 15px;
+    color: #fff;
+    line-height: 2 ;
+}
+
+  /* Footer Section */
+
+  .footer{
+    background-color: #000;
+  }
+  
+  .footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  
+  .SocialIcons{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .SocialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .SocialIcons a i{
+    font-size: 1em;
+    color: #000;
+    opacity: 0.9;
+  }
+  
+  .SocialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+  }
+  
+  .footerNav{
+    margin: 30px 0;
+  }
+  
+  .footerNav ul{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footerNav ul li a{
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover{
+    opacity: 1;
+  }
+  
+  .footerbottom{
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footerbottom p{
+    color: #fff;
+  }
+  
+  .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+  }
+  </span>

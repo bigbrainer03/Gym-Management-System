@@ -7,19 +7,19 @@ if(isset($_POST['submit'])) {
     $username = htmlspecialchars($_POST['name']);
     $password = htmlspecialchars($_POST['pass']);
 
-    // Validate the login (Replace this with your actual authentication logic)
+    // Validate the login 
     if($username == 'admin' && $password == 'admin123') {
         // Authentication successful, set a session variable
         $_SESSION['name'] = $username;
 
-        // Redirect to a different file (change 'dashboard.php' to your desired file)
+        // Redirect to a different file
         header("Location: index.php");
         exit();
     } else {
         // Authentication failed, set an error message
         $_SESSION['error_message'] = "Invalid username or password";
 
-        // Redirect back to the login page (change 'login.php' to your login page)
+        // Redirect back to the login page 
         header("Location: admin-login.php");
         exit();
     }

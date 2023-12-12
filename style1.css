@@ -1,16 +1,61 @@
-body{
-    background-color: #000;
+
+.black-bg{
+    background: #151515;
+    overflow-x: hidden;
+  
+
+.body{
+    background-color: rgb(22, 22, 22);
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: #151515;
+  }
+  .header .logo{
+    font-size: 22px;
+    font-weight: bolder;
+    color: #fff;
+    padding-right: 10px;
+    margin-right: 20rem;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+  }
+  .header .logo i{
+    color: #fff;
+    padding: 0.5rem;
+    text-decoration: none;
+  }
+
 .container{
-    background: #000;
+    background: rgb(22, 22, 22);
 }
 
 
 .card{
-    background: #000;
+    background: #151515;
     border: 1px solid #fff;
     padding: 10px;
+    box-shadow: 2px 2px 12px rgba(255, 255, 255, 0.7), -1px -1px 8px rgba(255, 255, 255, 0.7);
+    margin-top: 170px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
 }
 
 .card .card-header{

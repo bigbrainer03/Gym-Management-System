@@ -1,0 +1,68 @@
+<?php
+session_start();
+?>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Equipment</title>
+</head>
+<body>
+  
+    <div class="container mt-4">
+
+        <?php include('message1.php'); ?>
+
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Add New Equipment
+                            <a href="equipment-index.php" class="btn btn-danger float-end">Go Back</a>
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <form action="codeE.php" method="POST">
+
+                            <div class="mb-3">
+                                <label>ID</label>
+                                <input type="text" name="id" class="form-control">
+                            </div>
+
+                            <div class="mb-3">
+                                <label>Gym ID</label>
+                                <input type="text" name="gymid" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Equipment ID</label>
+                                <input type="text" name="eid" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Equipment Name</label>
+                                <input type="text" name="ename" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label>Purchase Date</label>
+                                <input type="date" name="purchase" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
